@@ -29,9 +29,9 @@ export default function AboutPage() {
   Gandhinagar University<br /><br />
 
   B.Tech in Computer Engineering (2023–2027)<br />
- <br /><br />
+ // <br /><br />
 
-  Backend Systems • Software Architecture • Full-Stack Development • AI/ML Systems • Scalable Engineering
+ //  Backend Systems • Software Architecture • Full-Stack Development • AI/ML Systems • Scalable Engineering
 </p>
 </div>
 
