@@ -66,7 +66,7 @@ import FlowNavigator from "@/components/home/FlowNavigator";
 import ProjectsPreview from "@/components/home/ProjectsPreview";
 import AchievementOrbit from "@/components/home/AchievementOrbit";
 import SkillsPreview from "@/components/home/SkillsPreview";
-import MobileWarning from "@/components/MobileWarning";
+
 
 
 
@@ -156,7 +156,7 @@ export default function Home() {
 
   return (
     <>
-    <MobileWarning />
+    
       {showBoot && <TerminalBoot onComplete={handleBoot} />}
       
       <div className="space-y-24 md:space-y-32">
