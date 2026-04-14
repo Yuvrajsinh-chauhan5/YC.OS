@@ -113,8 +113,8 @@ export default function Home() {
   useEffect(() => {
     const bootTime = localStorage.getItem("bootedAt");
   
-    // const TEN_MIN = 10 * 60 * 1000;
-    const THIRTY_MIN = 30 * 60 * 1000;
+    const TEN_MIN = 10 * 60 * 1000;
+    // const THIRTY_MIN = 30 * 60 * 1000;
   
     if (!bootTime) {
       setShowBoot(true);
@@ -130,8 +130,8 @@ export default function Home() {
   
     const diff = Date.now() - Number(bootTime);
   
-    // if (diff > TEN_MIN)
-    if (diff > THIRTY_MIN)  {
+    if (diff > TEN_MIN)
+    // if (diff > THIRTY_MIN)  {
       localStorage.removeItem("bootedAt");
       setShowBoot(true);
   
