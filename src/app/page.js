@@ -108,51 +108,73 @@ export default function Home() {
   //   }
   // }, []);
 
+//use this for localstorage logic
 
+  // useEffect(() => {
+  //   const bootTime = localStorage.getItem("bootedAt");
+  
+  //   const TEN_MIN = 10 * 60 * 1000;
+  //   // const THIRTY_MIN = 30 * 60 * 1000;
+  
+  //   if (!bootTime) {
+  //     setShowBoot(true);
+  
+  //     // ✅ MOBILE FAILSAFE
+  //     setTimeout(() => {
+  //       setShowBoot(false);
+  //       setBooted(true);
+  //     }, 9000); // force exit boot
+  
+  //     return;
+  //   }
+  
+  //   const diff = Date.now() - Number(bootTime);
+  
+  //   if (diff > TEN_MIN){
+  //   // if (diff > THIRTY_MIN)  {
+  //     localStorage.removeItem("bootedAt");
+  //     setShowBoot(true);
+  
+  //     setTimeout(() => {
+  //       setShowBoot(false);
+  //       setBooted(true);
+  //     }, 9000);
+  //   } else {
+  //     setBooted(true);
+  //   }
+  // }, []);
+
+  // const handleBoot = () => {
+  //   // localStorage.setItem("booted", "true");
+  //   localStorage.setItem("bootedAt", Date.now());
+  //   setBooted(true);
+
+  //   setTimeout(() => {
+  //     setShowBoot(false);
+  //   }, 500);
+  // };
+
+
+
+
+
+  // this for sessionstorage
 
   useEffect(() => {
-    const bootTime = localStorage.getItem("bootedAt");
-  
-    const TEN_MIN = 10 * 60 * 1000;
-    // const THIRTY_MIN = 30 * 60 * 1000;
-  
-    if (!bootTime) {
-      setShowBoot(true);
-  
-      // ✅ MOBILE FAILSAFE
-      setTimeout(() => {
-        setShowBoot(false);
-        setBooted(true);
-      }, 9000); // force exit boot
-  
-      return;
-    }
-  
-    const diff = Date.now() - Number(bootTime);
-  
-    if (diff > TEN_MIN){
-    // if (diff > THIRTY_MIN)  {
-      localStorage.removeItem("bootedAt");
-      setShowBoot(true);
-  
-      setTimeout(() => {
-        setShowBoot(false);
-        setBooted(true);
-      }, 9000);
-    } else {
-      setBooted(true);
-    }
-  }, []);
+  const booted = sessionStorage.getItem("booted");
 
-  const handleBoot = () => {
-    // localStorage.setItem("booted", "true");
-    localStorage.setItem("bootedAt", Date.now());
+  if (!booted) {
+    setShowBoot(true);
+  } else {
     setBooted(true);
+  }
+}, []);
 
-    setTimeout(() => {
-      setShowBoot(false);
-    }, 500);
-  };
+const handleBoot = () => {
+  sessionStorage.setItem("booted", "true");
+  setBooted(true);
+  setShowBoot(false);
+};
  
 //   return (
 //     <>
