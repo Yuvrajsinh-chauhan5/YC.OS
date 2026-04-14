@@ -130,7 +130,7 @@ export default function Home() {
   
     const diff = Date.now() - Number(bootTime);
   
-    if (diff > TEN_MIN)
+    if (diff > TEN_MIN){
     // if (diff > THIRTY_MIN)  {
       localStorage.removeItem("bootedAt");
       setShowBoot(true);
