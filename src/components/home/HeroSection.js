@@ -122,10 +122,10 @@ import Container from "../layout/Container";
 import Link from "next/link";
 
 const texts = [
+  "From Idea → Architecture → Production",
   "Designing Systems That Scale",
   "Engineering Backend & Distributed Architectures",
   "Building AI-Driven Intelligent Systems",
-  "From Idea → Architecture → Production",
   "Cloud-Native • Scalable • Production Systems",
 ];
 
