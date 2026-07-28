@@ -66,6 +66,7 @@ import FlowNavigator from "@/components/home/FlowNavigator";
 import ProjectsPreview from "@/components/home/ProjectsPreview";
 import AchievementOrbit from "@/components/home/AchievementOrbit";
 import SkillsPreview from "@/components/home/SkillsPreview";
+import ExperiencePreview from "@/components/home/ExperiencePreview";
 
 
 
@@ -229,6 +230,9 @@ const handleBoot = () => {
             <section id="featured-systems">
               <ProjectsPreview />
             </section>
+            <ExperiencePreview />
+
+
   
             <section id="achievements">
               <AchievementOrbit />
