@@ -147,13 +147,13 @@ export default function ContactPage() {
           /
         </span>
   
-        <a
+         <a
           href="mailto:yuvichauhan3112005@gmail.com"
           className="text-gray-400 hover:text-cyan-400 transition"
         >
           yuvichauhan3112005@gmail.com
-        </a>
-  
+        </a> 
+   
       </div>
   
   

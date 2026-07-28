@@ -26,6 +26,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import ParticleField from "@/components/animations/ParticleField";
 import BootGate from "@/components/boot/BootGate";
+import { Analytics } from "@vercel/analytics/next";
 
 import "./globals.css";
 
@@ -44,6 +45,7 @@ export default function RootLayout({ children }) {
           </main>
 
           <Footer />
+          <Analytics />
 
         </BootGate>
 
