@@ -1,4 +1,53 @@
 export default [
+
+
+
+  {
+    slug: "taskpilot",
+    title: "TaskPilot",
+    category: "Agentic AI System",
+    status: "Completed",
+    timeline: "Aug 2026",
+
+    shortDescription:
+      "Local agentic AI task management system enabling natural-language task operations through controlled tool calling and workflow orchestration.",
+
+    fullDescription: `
+  TaskPilot is a local agentic AI task management system designed to let users manage tasks through natural-language instructions instead of manually performing individual operations.
+
+  The system uses Qwen3 through Ollama as the local LLM and n8n as the agent orchestration and workflow execution layer. The agent interprets user requests, identifies the required actions, selects the appropriate tools, extracts structured parameters, and executes the corresponding workflows.
+
+  Implemented controlled task-management tools for Create Task, Update Task, Complete Task, and List Tasks, with MySQL providing persistent task storage. Each tool maps to a predefined n8n workflow responsible for executing the required database operation.
+
+  The system supports multi-step agent execution, allowing a single natural-language request to perform sequential operations such as Create → Update → Complete → List. Results from earlier operations can be passed into subsequent steps, enabling dependent task execution within a single request.
+
+  The architecture separates AI reasoning from database execution: Qwen3 determines the required actions and tool calls, n8n executes controlled workflows, and MySQL manages persistent task data without allowing the LLM to generate or execute arbitrary SQL.
+
+  Individual task-management workflows were tested independently before being integrated with the AI agent. End-to-end testing then validated the complete flow from natural-language input and tool selection through workflow execution, database operations, result handling, and final natural-language response.
+    `,
+
+    highlights: [
+      "Local agentic AI task management system",
+      "Qwen3 + Ollama for local LLM execution",
+      "n8n-based agent orchestration and tool calling",
+      "Controlled Create, Update, Complete, and List task tools",
+      "Multi-step execution with dependent tool operations",
+      "Separation of AI reasoning from database execution",
+      "MySQL-based persistent task storage",
+      "End-to-end workflow and agent integration testing"
+    ],
+
+    techStack: [
+      "n8n",
+      "Ollama",
+      "Qwen3",
+      "LLM Tool Calling",
+      "Agent Orchestration",
+      "MySQL",
+      "SQL"
+    ],
+  },
+
   {
     slug: "career-explore-hub",
     title: "CareerExploreHub",
