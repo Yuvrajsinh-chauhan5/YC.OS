@@ -991,7 +991,7 @@ export default function RecruiterPage() {
                 <span className="text-gray-700">•</span>
                 <span>{profile.stage}</span>
                 <span className="text-gray-700">•</span>
-                <span>Gandhinagar, Gujarat</span>
+                <span>Ahmedabad, Gujarat</span>
               </div>
             </div>
 
