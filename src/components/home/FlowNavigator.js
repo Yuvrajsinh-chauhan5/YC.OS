@@ -101,14 +101,14 @@
 import Link from "next/link";
 
 const nodes = [
-  { name: "System Architect", x: "50%", y: "50%", type: "core" },
+  { name: "~/System Architect", x: "50%", y: "50%", type: "core" },
 
-  { name: "About", link: "/about", x: "20%", y: "20%" },
-  { name: "Projects", link: "#featured-systems", x: "80%", y: "20%" },
-  { name: "Skills", link: "#skills", x: "20%", y: "80%" },
-  { name: "Architecture", link: "/architecture", x: "80%", y: "80%" },
-  { name: "Lab", link: "/lab", x: "50%", y: "10%" },
-  { name: "Contact", link: "/contact", x: "50%", y: "90%" },
+  { name: "~/About", link: "/about", x: "20%", y: "20%" },
+  { name: "~/Projects", link: "#featured-systems", x: "80%", y: "20%" },
+  { name: "~/Skills", link: "#skills", x: "20%", y: "80%" },
+  { name: "~/Architecture", link: "/architecture", x: "80%", y: "80%" },
+  { name: "~/Lab", link: "/lab", x: "50%", y: "10%" },
+  { name: "~/Contact", link: "/contact", x: "50%", y: "90%" },
 ];
 
 export default function FlowNavigator() {

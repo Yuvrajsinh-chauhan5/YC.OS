@@ -46,46 +46,8 @@ export default [
       "MySQL",
       "SQL"
     ],
+    demo: "/TaskPilot.pdf",
   },
-
-  {
-    slug: "career-explore-hub",
-    title: "CareerExploreHub",
-    category: "Full Stack",
-    status: "Active",
-    timeline: "Aug 2024 – Present",
-
-    shortDescription:
-      "Career guidance platform helping students explore career paths with structured guidance and clean UI.",
-
-    fullDescription: `
-CareerExploreHub is a platform designed to assist students and professionals in exploring various career paths through a clean, interactive, and user-friendly interface.
-
-It provides structured guidance and well-organized resources to support informed career decisions.
-
-I built this project from scratch with no prior development experience, learning everything during development. The current version is a fully functional system that represents the core vision of the platform.
-
-It successfully cleared multiple internal hackathon rounds and is eligible for SIH 2024 submission.
-    `,
-
-    highlights: [
-      "Built from scratch without prior experience",
-      "Hackathon qualified (SIH 2024 eligible)",
-      "Clean UI + structured career navigation",
-      "Foundation for future AI recommendation system",
-    ],
-
-    techStack: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Node.js (planned)",
-      "AI Integration (planned)",
-    ],
-
-    demo: "https://yuvrajsinh-chauhan5.github.io/CareerExploreHub/",
-  },
-
   {
     slug: "microservices-system",
     title: "Cloud-Native Microservices Backend System",
@@ -124,35 +86,8 @@ Added observability using Grafana and Loki.
       "OAuth2",
       "JWT",
     ],
+    demo: "/Microservices.pdf",
   
-  },
-
-  {
-    slug: "ecommerce-springboot",
-    title: "E-Commerce Web Application",
-    category: "Full Stack",
-    status: "Completed",
-    timeline: "Dec 2025",
-
-    shortDescription:
-      "Spring Boot based e-commerce system focusing on REST APIs and backend fundamentals.",
-
-    fullDescription: `
-Built a practice e-commerce application to understand backend systems and REST API design.
-
-Implemented product CRUD operations, search filtering, and database integration with clean architecture.
-    `,
-
-    highlights: [
-      "REST API design",
-      "Product CRUD system",
-      "Search functionality",
-      "Database integration",
-    ],
-
-    techStack: ["Java", "Spring Boot", "React", "SQL", "Postman"],
-
-    demo: "https://youtu.be/b92u4Ii2Pgg?si=hGfyyr2uTxDaSyjm",
   },
   {
     slug: "nutriscan",
@@ -189,7 +124,7 @@ Implemented product CRUD operations, search filtering, and database integration 
       "AI Integration Roadmap"
     ],
   
-    demo: "https://youtu.be/jMhZ726Layk?si=O_MtGsjuih4pJm0f",
+    demo: "https://youtu.be/_66d5qeBKL0",
   },
 
   {
@@ -232,6 +167,34 @@ Implemented product CRUD operations, search filtering, and database integration 
     demo: "https://youtu.be/DEAFqZ5C5II",
   },
   {
+    slug: "ecommerce-springboot",
+    title: "E-Commerce Web Application",
+    category: "Full Stack",
+    status: "Completed",
+    timeline: "Dec 2025",
+
+    shortDescription:
+      "Spring Boot based e-commerce system focusing on REST APIs and backend fundamentals.",
+
+    fullDescription: `
+Built a practice e-commerce application to understand backend systems and REST API design.
+
+Implemented product CRUD operations, search filtering, and database integration with clean architecture.
+    `,
+
+    highlights: [
+      "REST API design",
+      "Product CRUD system",
+      "Search functionality",
+      "Database integration",
+    ],
+
+    techStack: ["Java", "Spring Boot", "React", "SQL", "Postman"],
+
+    demo: "https://youtu.be/b92u4Ii2Pgg?si=hGfyyr2uTxDaSyjm",
+  },
+ 
+  {
     slug: "travel-itinerary",
     title: "Smart Travel Itinerary Builder",
     category: "Backend / API",
@@ -268,5 +231,42 @@ Implemented product CRUD operations, search filtering, and database integration 
     ],
   
     demo: "https://youtu.be/5gCb-TBnxF8",
+  },
+  {
+    slug: "career-explore-hub",
+    title: "CareerExploreHub",
+    category: "Full Stack",
+    status: "Active",
+    timeline: "Aug 2024 – Present",
+
+    shortDescription:
+      "Career guidance platform helping students explore career paths with structured guidance and clean UI.",
+
+    fullDescription: `
+CareerExploreHub is a platform designed to assist students and professionals in exploring various career paths through a clean, interactive, and user-friendly interface.
+
+It provides structured guidance and well-organized resources to support informed career decisions.
+
+I built this project from scratch with no prior development experience, learning everything during development. The current version is a fully functional system that represents the core vision of the platform.
+
+It successfully cleared multiple internal hackathon rounds and is eligible for SIH 2024 submission.
+    `,
+
+    highlights: [
+      "Built from scratch without prior experience",
+      "Hackathon qualified (SIH 2024 eligible)",
+      "Clean UI + structured career navigation",
+      "Foundation for future AI recommendation system",
+    ],
+
+    techStack: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js (planned)",
+      "AI Integration (planned)",
+    ],
+
+    demo: "https://yuvrajsinh-chauhan5.github.io/CareerExploreHub/",
   },
 ];
