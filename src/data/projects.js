@@ -46,7 +46,8 @@ export default [
       "MySQL",
       "SQL"
     ],
-    demo: "/TaskPilot.pdf",
+    preview: "/TaskPilot.pdf",
+    previewLabel: "Architecture",
   },
   {
     slug: "microservices-system",
@@ -86,7 +87,8 @@ Added observability using Grafana and Loki.
       "OAuth2",
       "JWT",
     ],
-    demo: "/Microservices.pdf",
+    preview: "/Microservices.pdf",
+    previewLabel: "Architecture",
   
   },
   {
@@ -124,7 +126,8 @@ Added observability using Grafana and Loki.
       "AI Integration Roadmap"
     ],
   
-    demo: "https://youtu.be/_66d5qeBKL0",
+    preview: "https://youtu.be/_66d5qeBKL0",
+previewLabel: "Live Demo",
   },
 
   {
@@ -164,7 +167,8 @@ Added observability using Grafana and Loki.
       "Database Systems"
     ],
   
-    demo: "https://youtu.be/DEAFqZ5C5II",
+    preview: "https://youtu.be/DEAFqZ5C5II",
+previewLabel: "Live Demo",
   },
   {
     slug: "ecommerce-springboot",
@@ -191,7 +195,8 @@ Implemented product CRUD operations, search filtering, and database integration 
 
     techStack: ["Java", "Spring Boot", "React", "SQL", "Postman"],
 
-    demo: "https://youtu.be/b92u4Ii2Pgg?si=hGfyyr2uTxDaSyjm",
+    preview: "https://youtu.be/b92u4Ii2Pgg?si=hGfyyr2uTxDaSyjm",
+previewLabel: "Live Demo",
   },
  
   {
@@ -230,7 +235,8 @@ Implemented product CRUD operations, search filtering, and database integration 
       "Postman"
     ],
   
-    demo: "https://youtu.be/5gCb-TBnxF8",
+    preview: "https://youtu.be/5gCb-TBnxF8",
+previewLabel: "Live Demo",
   },
   {
     slug: "career-explore-hub",
@@ -267,6 +273,7 @@ It successfully cleared multiple internal hackathon rounds and is eligible for S
       "AI Integration (planned)",
     ],
 
-    demo: "https://yuvrajsinh-chauhan5.github.io/CareerExploreHub/",
+    preview: "https://yuvrajsinh-chauhan5.github.io/CareerExploreHub/",
+previewLabel: "Live Demo",
   },
 ];
